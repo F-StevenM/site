@@ -22,9 +22,33 @@ a {
     top: 0;
     width: 100%;
     padding: 25px 9%;
-    background: #425a75;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.navbar ul li a {
+    font-size: 18px;
+    font-weight: 350;
+    transition: .5s;
+}
+
+.navbar ul li:hover a,
+.navbar il li.active a {
+    color: #3ab1a1;
 }
